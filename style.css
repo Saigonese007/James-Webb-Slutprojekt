@@ -28,7 +28,6 @@ justify-content:space-between;
 align-items:center;
 padding: 25px;
 background:var(--secondary-color);
-border-bottom:1px solid var(--border-color);
 }
 
 .logo img{
@@ -43,15 +42,18 @@ gap:40px;
 
 .nav-links a{
 text-decoration:none;
-color:var(--nav-text-color);
+color:white ;
 font-size:17.5px;
 font-weight:500;
 transition:0.3s;
 }
 
 .nav-links a:hover{
-color:grey;
+color:var(--primary-color);
+text-decoration: underline  ;
 }
+
+
 /* hero (under nav) */
 
 .hero{
@@ -64,23 +66,24 @@ align-items:center;
 padding-left:4rem;
 }
 
+
+
 .hero-overlay{
-background:white;
+background:none;
 padding:50px;
 max-width:550px;
 }
 
 .hero h1{
 font-size:64px;
-font-weight:300;
 margin-bottom:20px;
 }
 
 .hero p{
-font-size:22px;
+font-size:30px;
 margin-bottom:30px;
-line-height:1.5;
 color:var(--text-color);
+
 }
 
 .hero-Button{
@@ -94,4 +97,6 @@ transition:0.3s;
 
 .hero-Button:hover{
 background:var(--hover-color);
+color:white;
+padding:15px;
 }
